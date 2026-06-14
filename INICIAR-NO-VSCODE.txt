@@ -1,0 +1,21 @@
+PET LOVE — COMO INICIAR NO VS CODE
+
+1. Instale o Node.js 20 ou mais recente: https://nodejs.org
+2. Abra esta pasta no VS Code.
+3. Abra Terminal > Novo Terminal.
+4. Execute: npm install
+5. Quando terminar, execute: npm run dev
+6. Abra no navegador: http://localhost:8080
+
+Importante:
+- Execute os comandos dentro da pasta que contém o arquivo package.json.
+- Não abra o arquivo index.html diretamente e não use a extensão Go Live.
+  Este projeto possui recursos de servidor e precisa do comando npm run dev.
+- Mantenha o terminal aberto enquanto estiver usando o site.
+- Para encerrar, pressione Ctrl+C no terminal.
+
+Se aparecer uma versão antiga ou uma página de erro:
+1. Pare o servidor com Ctrl+C.
+2. Apague a pasta node_modules.
+3. Execute novamente: npm install
+4. Execute novamente: npm run dev
